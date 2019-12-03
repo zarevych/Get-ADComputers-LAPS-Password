@@ -21,3 +21,6 @@ or
 ```powershell
 .\Get-ADComputers-LAPS-Password.ps1 -OU "OU=Computers,OU=IT Department,DC=myDomain,DC=com"
 ```
+
+More info:
+https://angry-admin.blogspot.com/2018/07/powershell-script-get-laps-password.html
