@@ -1,4 +1,35 @@
-﻿#Requires -Version 2.0
+﻿<#PSScriptInfo
+
+.VERSION 2.0
+
+.GUID a0539e07-fe20-4f41-81f2-a0acbb51a382
+
+.AUTHOR Andriy Zarevych
+
+.COMPANYNAME
+
+.COPYRIGHT 2018 Andriy Zarevych
+
+.TAGS ActiveDirectory LAPS
+
+.LICENSEURI
+
+.PROJECTURI
+
+.ICONURI
+
+.EXTERNALMODULEDEPENDENCIES ActiveDirectory
+
+.REQUIREDSCRIPTS
+
+.EXTERNALSCRIPTDEPENDENCIES
+
+.RELEASENOTES
+
+
+.PRIVATEDATA
+
+#>
 
 <#
 .SYNOPSIS
@@ -43,18 +74,6 @@
     Optional parameter to set name for log files
 
 
-.NOTES
-   File Name  : Get-ADComputers-LAPS-Password.ps1
-   Version    : 2.0
-   Date       : 2018.07.05
-   Author     : Andriy Zarevych
-
-   Find me on :
-   * My Blog  :	https://angry-admin.blogspot.com/
-   * LinkedIn :	https://linkedin.com/in/zarevych/
-   * Github   :	https://github.com/zarevych
-
-
 .EXAMPLE
    .\Get-ADComputers-LAPS-Password.ps1
 
@@ -76,7 +95,22 @@
    -----------
    Generates a CSV file with specific name and path
 
+
+.NOTES
+   File Name  : Get-ADComputers-LAPS-Password.ps1
+   Version    : 2.0
+   Date       : 2018.07.05
+   Author     : Andriy Zarevych
+
+   Find me on :
+   * My Blog  :	https://angry-admin.blogspot.com/
+   * LinkedIn :	https://linkedin.com/in/zarevych/
+   * Github   :	https://github.com/zarevych
+
 #>
+
+#Requires -Modules ActiveDirectory
+#Requires -Version 2.0
 
 #---------------------------------------------------------[Initialisations]--------------------------------------------------------
 
