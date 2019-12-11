@@ -49,6 +49,11 @@
    Date       : 2018.07.05
    Author     : Andriy Zarevych
 
+   Find me on :
+   * My Blog  :	https://angry-admin.blogspot.com/
+   * LinkedIn :	https://linkedin.com/in/zarevych/
+   * Github   :	https://github.com/zarevych
+
 
 .EXAMPLE
    .\Get-ADComputers-LAPS-Password.ps1
